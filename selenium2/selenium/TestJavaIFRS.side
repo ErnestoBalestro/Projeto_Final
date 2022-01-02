@@ -1,0 +1,121 @@
+{
+  "id": "0d913d8e-0162-44ff-b180-953d12bc3d3e",
+  "version": "2.0",
+  "name": "TestJavaIFRS",
+  "url": "https://ifrs.edu.br",
+  "tests": [{
+    "id": "0854e80a-e53f-492d-bfb5-e3b31d6ace9e",
+    "name": "TestEditalIFRS",
+    "commands": [{
+      "id": "f93531cb-93e2-4491-8271-6803049b014a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7db8f4f1-794e-4c54-b425-af0ce3b84d0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baca3b05-3a0a-4adf-94ab-52d27fdac71e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Editais",
+      "targets": [
+        ["linkText=Editais", "linkText"],
+        ["css=#menu-item-844 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Editais')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-844']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ifrs.edu.br/editais/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Editais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58733322-8d7a-4a3f-a9f6-8e666a356b85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PE 38/2021 – Serviço de Limpeza para o campus Veranópolis",
+      "targets": [
+        ["linkText=PE 38/2021 – Serviço de Limpeza para o campus Veranópolis", "linkText"],
+        ["css=.even:nth-child(10) > td:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PE 38/2021 – Serviço de Limpeza para o campus Veranópolis')]", "xpath:link"],
+        ["xpath=//table[@id='DataTables_Table_0']/tbody/tr[10]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ifrs.edu.br/editais/pe-38-2021-servico-de-limpeza-para-o-campus-veranopolis/')]", "xpath:href"],
+        ["xpath=//tr[10]/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PE 38/2021 – Serviço de Limpeza para o campus Veranópolis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34716e3d-2655-422e-8286-deb70be58b07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edital__title",
+      "targets": [
+        ["css=.edital__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59faebd2-a5f7-40ce-ad43-11c4f8167412",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edital__title",
+      "targets": [
+        ["css=.edital__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6913110f-de06-4dfa-a865-3bc95d46abe8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Pinterest",
+      "targets": [
+        ["linkText=Pinterest", "linkText"],
+        ["css=.crunchify-social__link_pinterest", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fifrs.edu.br%2Feditais%2Fpe-38-2021-servico-de-limpeza-para-o-campus-veranopolis%2F&media=&description=PE%2038/2021%20%E2%80%93%20Servi%C3%A7o%20de%20Limpeza%20para%20o%20campus%20Veran%C3%B3polis')]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pinterest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45da8fda-96bd-4222-a436-fac58da658c6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Pinterest",
+      "targets": [
+        ["linkText=Pinterest", "linkText"],
+        ["css=.crunchify-social__link_pinterest", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fifrs.edu.br%2Feditais%2Fpe-38-2021-servico-de-limpeza-para-o-campus-veranopolis%2F&media=&description=PE%2038/2021%20%E2%80%93%20Servi%C3%A7o%20de%20Limpeza%20para%20o%20campus%20Veran%C3%B3polis')]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pinterest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0363edb5-3e28-4b28-9964-f61c090fd277",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.edital__title",
+      "targets": [
+        ["css=.edital__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4da59690-3175-4a41-ab42-73d53c52d5f0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0854e80a-e53f-492d-bfb5-e3b31d6ace9e"]
+  }],
+  "urls": ["https://ifrs.edu.br/"],
+  "plugins": []
+}

@@ -1,0 +1,142 @@
+{
+  "id": "105374da-2b59-4fb9-9b1c-cadf10b484b4",
+  "version": "2.0",
+  "name": "ERNESTO_SELENIUM_1",
+  "url": "https://ifrs.edu.br",
+  "tests": [{
+    "id": "4a43f1ef-9db8-44c7-87d0-f864b72d29d5",
+    "name": "ASSERT_EDITAL_64_2019",
+    "commands": [{
+      "id": "a7973f22-f3c7-4ba5-8a0e-89f963df2b86",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03298730-4648-46a9-be74-da9cfe70a259",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "489d0a7b-3f34-4ace-9900-9828ffa53cb9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2235)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7909e73e-755c-4b5b-8a8d-9944ef8cbf77",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3390)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e8efaba-8add-402f-ac7b-00bcb4b04ce7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5216)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4f5627e-a913-4280-a0cb-44c0634c60ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.wp-image-44299",
+      "targets": [
+        ["css=.wp-image-44299", "css:finder"],
+        ["xpath=//img[@alt='Catálogo das Bibliotecas']", "xpath:img"],
+        ["xpath=//li[@id='media_image-22']/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/nav/ul/li[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb5b4ac-febc-4cf2-aabb-05a6e64c07cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.wp-image-44299",
+      "targets": [
+        ["css=.wp-image-44299", "css:finder"],
+        ["xpath=//img[@alt='Catálogo das Bibliotecas']", "xpath:img"],
+        ["xpath=//li[@id='media_image-22']/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/nav/ul/li[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0082c0c8-3cb7-425c-9dc6-6e57672bf25d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acesso-todos-editais__link",
+      "targets": [
+        ["css=.acesso-todos-editais__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Acesse todos os Editais')]", "xpath:link"],
+        ["xpath=//div[@id='editais_widget-2']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ifrs.edu.br/editais/')])[15]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4133b183-e7b9-49b1-859a-36d04ff2133d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#DataTables_Table_0_filter .form-control",
+      "targets": [
+        ["css=#DataTables_Table_0_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='DataTables_Table_0_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbe483b2-96a5-44b3-b375-1628a9ba8e67",
+      "comment": "",
+      "command": "type",
+      "target": "css=#DataTables_Table_0_filter .form-control",
+      "targets": [
+        ["css=#DataTables_Table_0_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='DataTables_Table_0_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "64/2019"
+    }, {
+      "id": "4b228df2-48d7-4680-b66d-28194b6f7d35",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EDITAL IFRS Nº 64/2019 FOMENTO INTERNO PARA PROJETOS DE PESQUISA E INOVAÇÃO 2020/2021",
+      "targets": [
+        ["linkText=EDITAL IFRS Nº 64/2019 FOMENTO INTERNO PARA PROJETOS DE PESQUISA E INOVAÇÃO 2020/2021", "linkText"],
+        ["css=td:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'EDITAL IFRS Nº 64/2019 FOMENTO INTERNO PARA PROJETOS DE PESQUISA E INOVAÇÃO 2020/2021')]", "xpath:link"],
+        ["xpath=//table[@id='DataTables_Table_0']/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ifrs.edu.br/editais/edital-ifrs-no-64-2019-fomento-interno-para-projetos-de-pesquisa-e-inovacao-2020-2021/')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EDITAL IFRS Nº 64/2019 FOMENTO INTERNO PARA PROJETOS DE PESQUISA E INOVAÇÃO 2020/2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1661f2f2-d9bb-4b18-a241-bac360e8fb6a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.edital__title",
+      "targets": [
+        ["css=.edital__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "EDITAL IFRS Nº 64/2019 FOMENTO INTERNO PARA PROJETOS DE PESQUISA E INOVAÇÃO 2020/2021\\nde 26 de novembro de 2019"
+    }]
+  }],
+  "suites": [{
+    "id": "f08b5531-5a73-4441-be3e-d2d8305260e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4a43f1ef-9db8-44c7-87d0-f864b72d29d5"]
+  }],
+  "urls": ["https://ifrs.edu.br/"],
+  "plugins": []
+}
